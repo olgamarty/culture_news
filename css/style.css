@@ -1,0 +1,302 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 150%;
+	color: #000000;
+	width: 1440px;
+	background: #FFFFFF;
+	margin: auto;	
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	font-size: 35px;
+	line-height: 47px;
+	letter-spacing: 1px;
+	color: #000000;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 46px;
+}
+
+.list-menu {	
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 135px;
+	margin-bottom: 47px;
+}
+
+.list-menu li {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 2px;	
+	text-transform: uppercase;
+}
+
+ul a,
+.main-new-link {
+	text-decoration: none;
+}
+
+ul a:link, ul a:visited {
+	color: #000000;
+}
+
+ul a:hover {
+	color: #FF7931;
+}
+
+.main-new {
+	width: 1440px;
+	height: 464px;
+	background-image: url("../img/hotel_header.jpg");
+}
+
+.logo {
+	margin: 21px 0 32px;
+	text-align: center;
+}
+
+.new {	
+	width: 117px;
+	height: 25px;
+	font-family: 'RalewayRegular', sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 25px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #FF7931;
+	margin-left: 135px;
+	visibility: hidden;
+}
+
+.main-new-link:hover .new {
+	visibility: visible;
+}
+
+.title-main-new {
+	font-family: 'Roboto', sans-serif;
+	font-size: 72px;
+	line-height: 80px;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-bottom: 135px;
+}
+
+.text-main-new {
+	text-align: center;
+	color: #FFFFFF;
+	width: 456px;
+	margin: auto;
+}
+
+.heading {
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.reviews {
+	width: 1170px;
+	height: 463px;
+	padding-top: 44px;
+	margin: 0 auto;
+}
+
+.review-column {
+	display: flex;
+	justify-content: space-between;
+}
+
+.review {
+	width: 370px;
+}
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	font-size: 23px;
+	line-height: 25px;
+	margin-bottom: 8px;
+	margin-top: 20px;
+}
+
+h2 a {
+	color: #000000;
+	text-decoration: none;
+}
+
+h2 a:hover {
+	color: #FF7931;
+}
+
+p {
+	margin-top: 10px;
+	margin-bottom: 12px;
+}
+
+.tickets {
+	position: relative;
+	height: 550px;
+	padding-top: 33px;
+	overflow: hidden;
+	margin-bottom: 50px;
+	margin-top: -40px;
+	background-image: radial-gradient(circle at 50% 50%, #FFFFFF 354px, #F7F7F7 0px)
+}
+
+.text-poster {
+	width: 370px;
+	margin: auto;
+	text-align: center;
+}
+
+.text-poster .heading {
+	margin-bottom: 35px;
+}
+
+.text-poster span {
+	display: inline-block;
+	width: 100px;
+	height: 1px;
+	background-color: rgba(0, 0, 0, 0.2);
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+a.button {
+	display: inline-block;
+	background-color: #FF7931;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 47px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+	width: 170px;
+	height: 47px;
+	text-align: center;
+	margin-top: 35px;
+}
+
+.button img {
+	vertical-align: middle;
+}
+
+a.button:link, a.button:visited {
+	color: #FFFFFF;
+}
+
+a.button:hover {
+	font-size: 13px;
+	background-color: rgb(255, 95, 15);
+	border: 1px solid rgb(255, 95, 15);
+	box-shadow: 1px 1px 3px #575757;
+}
+
+.page-footer {
+	width: 1440px;
+	height: 290px;
+	background-color: #575757;
+	padding-top: 26px;
+}
+
+.page-footer h1 {
+	color: #FFFFFF;
+	font-size: 28px;
+	line-height: 37px;
+	margin-top: 10px;
+	margin-bottom: 32px;
+}
+
+.page-footer ul {
+	margin-bottom: 35px;
+}
+
+.page-footer ul a:link, 
+.page-footer ul a:visited {
+	color: #FFFFFF;
+}
+
+.page-footer ul a:hover {
+	color: #FF7931;
+}
+
+.page-footer span {
+	display: inline-block;
+	width: 1170px;
+	height: 1px;
+	background-color: rgba(255, 255, 255, 0.4);
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 42px;
+	margin-left: 135px;
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
+}
+
+.icon {
+	width: 47px;
+	height: 47px;
+	background-color: #FFFFFF;
+	margin-right: 14px;
+}
+
+a.icon:hover {
+	background-color: #FF7931;
+}
+
+.icon:last-child {
+	margin-right: 0;
+}
+
+.instagram {
+	background-image: url(../img/instagram_icon.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.facebook {
+	background-image: url(../img/facebook_icon.svg);
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+
+.twitter {
+	background-image: url(../img/twitter_icon.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+@font-face {
+	font-family: "RalewayRegular"; 
+	src: url("../fonts/RalewayRegular.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+	} 
